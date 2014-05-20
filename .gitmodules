@@ -1,0 +1,6 @@
+[submodule "vagrant/cookbooks/yum"]
+	path = vagrant/cookbooks/yum
+	url = https://github.com/opscode-cookbooks/yum
+[submodule "vagrant/cookbooks/yum-epel"]
+	path = vagrant/cookbooks/yum-epel
+	url = https://github.com/opscode-cookbooks/yum-epel

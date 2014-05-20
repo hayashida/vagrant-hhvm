@@ -1,0 +1,19 @@
+PidFile = /var/run/hhvm/pid
+
+Server {
+  Port = 9000
+  Type = fastcgi
+  SourceRoot = /opt/hhvm
+  DefaultDocument = index.php
+}
+
+Log {
+  Level = Warning
+  AlwaysLogUnhandledExceptions = true
+  RuntimeErrorReportingLevel = 8191
+}
+
+MySQL {
+  TypedResults = false
+}
+
